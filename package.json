@@ -2,7 +2,7 @@
     "name": "statusbar-format-on-save",
     "displayName": "Status Bar - Format on Save",
     "description": "Shows the current value of editor.formatOnSave in the status bar",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "treetrum",
     "repository": "https://github.com/treetrum/statusbar-format-on-save",
     "engines": {
