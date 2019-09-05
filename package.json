@@ -3,6 +3,7 @@
     "displayName": "Status Bar - Format on Save",
     "description": "Shows the current value of editor.formatOnSave in the status bar",
     "version": "1.0.0",
+    "publisher": "treetrum",
     "engines": {
         "vscode": "^1.38.0"
     },
