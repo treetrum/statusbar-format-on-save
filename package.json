@@ -4,6 +4,7 @@
     "description": "Shows the current value of editor.formatOnSave in the status bar",
     "version": "1.0.1",
     "publisher": "treetrum",
+    "repository": "git@github.com:treetrum/statusbar-format-on-save.git",
     "engines": {
         "vscode": "^1.38.0"
     },
