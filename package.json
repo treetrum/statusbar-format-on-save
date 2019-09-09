@@ -24,7 +24,27 @@
                 "command": "statusbar-format-on-save.toggleFormatOnSave",
                 "title": "Toggle: Format on Save"
             }
-        ]
+        ],
+        "configuration": {
+            "title": "Status Bar Format On Save",
+            "properties": {
+                "statusbar-format-on-save.formatString": {
+                    "type": "string",
+                    "default": "Format on save: {{status}}",
+                    "description": "The format string displayed in the status bar. The variable {{status}} should be used to merge in the live value."
+                },
+                "statusbar-format-on-save.displayWhenTrue": {
+                    "type": "string",
+                    "default": "Enabled",
+                    "description": "The string to display when the formatOnSave value is true"
+                },
+                "statusbar-format-on-save.displayWhenFalse": {
+                    "type": "string",
+                    "default": "Disabled",
+                    "description": "The string to display when the formatOnSave value is false"
+                }
+            }
+        }
     },
     "devDependencies": {
         "@types/glob": "^7.1.1",
