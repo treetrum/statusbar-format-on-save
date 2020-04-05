@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
     - name: Install vsce cli
       run: npm i -g vsce
 #     - name: Publish a new minor version
