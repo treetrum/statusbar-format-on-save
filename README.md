@@ -31,6 +31,10 @@ If you find an issue with this extension or would like to request new functional
 
 ## Release Notes
 
+### 1.1.1
+
+Nothing really...
+
 ### 1.1.0
 
 Allow for customisation of the display in the status bar (with a custom format string)
