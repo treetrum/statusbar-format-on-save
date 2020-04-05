@@ -1,6 +1,5 @@
 # This is a basic workflow to help you get started with Actions
-
-name: CI
+name: Auto publish to VSCode Marketplace
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -19,5 +18,5 @@ jobs:
         node-version: '10.x'
     - name: Install vsce cli
       run: npm i -g vsce
-#     - name: Publish a new minor version
-#       run: vsce publish minor -p ${{ secrets.VSCE_TOKEN }}
+    - name: Publish a new minor version
+      run: vsce publish minor -p ${{ secrets.VSCE_TOKEN }}
