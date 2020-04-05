@@ -16,7 +16,7 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '10.x'
-    - name: Install vsce cli
+    - name: Install CLI
       run: npm i -g vsce
-    - name: Publish a new minor version
-      run: vsce publish minor -p ${{ secrets.VSCE_TOKEN }}
+    - name: Publish
+      run: vsce publish -p ${{ secrets.VSCE_TOKEN }}
