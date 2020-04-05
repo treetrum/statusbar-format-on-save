@@ -1,0 +1,18 @@
+name: Auto publish to VSCode Marketplace
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - name: Install CLI
+      run: npm i -g vsce
+    - name: Publish
+      run: vsce publish -p ${{ secrets.VSCE_TOKEN }}
