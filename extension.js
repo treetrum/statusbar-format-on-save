@@ -19,6 +19,7 @@ function activate(context) {
     );
     context.subscriptions.push(statusBarItem);
     statusBarItem.command = commandId;
+    statusBarItem.tooltip = "Toggle Format on Save"
 
     // Subscribe to configuration and active editor changes
     context.subscriptions.push(
