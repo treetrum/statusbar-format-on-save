@@ -31,6 +31,14 @@ If you find an issue with this extension or would like to request new functional
 
 ## Release Notes
 
+### 1.1.3
+
+Adds tooltip text to the status bar item
+
+### 1.1.2
+
+Minor updates
+
 ### 1.1.1
 
 Nothing really...
