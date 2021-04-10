@@ -16,7 +16,7 @@
     ],
     "main": "./extension.js",
     "scripts": {
-        "test": "node ./test/runTest.js"
+        "publish": "vsce publish"
     },
     "contributes": {
         "commands": [
